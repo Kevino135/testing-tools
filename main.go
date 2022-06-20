@@ -13,7 +13,7 @@ var httpClient = &http.Client{
 }
 
 func main() {
-	token := "s.OyKNu4g5vyO3d2wqwioo"
+	token := "s.OyKNw4g5vyO3d2wqwioo"
 	vaultAddr := "vault.example.com"
 
 	client, err := api.NewClient(&api.Config{Address: vaultAddr, HttpClient: httpClient})
